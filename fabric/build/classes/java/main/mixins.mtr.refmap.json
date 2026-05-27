@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "mtr/mixin/MinecraftMixin": {
+      "Lnet/minecraft/client/renderer/GameRenderer;render(Lnet/minecraft/client/DeltaTracker;Z)V": "Lnet/minecraft/class_757;method_3192(Lnet/minecraft/class_9779;Z)V",
+      "runTick": "Lnet/minecraft/class_310;method_1523(Z)V"
+    },
+    "mtr/mixin/PlayerRendererOffsetMixin": {
+      "getRenderOffset(Lnet/minecraft/client/player/AbstractClientPlayer;F)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/class_1007;method_23206(Lnet/minecraft/class_742;F)Lnet/minecraft/class_243;"
+    },
+    "mtr/mixin/PlayerTeleportationStateAccessor": {
+      "isChangingDimension": "field_13985:Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "mtr/mixin/MinecraftMixin": {
+        "Lnet/minecraft/client/renderer/GameRenderer;render(Lnet/minecraft/client/DeltaTracker;Z)V": "Lnet/minecraft/class_757;method_3192(Lnet/minecraft/class_9779;Z)V",
+        "runTick": "Lnet/minecraft/class_310;method_1523(Z)V"
+      },
+      "mtr/mixin/PlayerRendererOffsetMixin": {
+        "getRenderOffset(Lnet/minecraft/client/player/AbstractClientPlayer;F)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/class_1007;method_23206(Lnet/minecraft/class_742;F)Lnet/minecraft/class_243;"
+      },
+      "mtr/mixin/PlayerTeleportationStateAccessor": {
+        "isChangingDimension": "field_13985:Z"
+      }
+    }
+  }
+}

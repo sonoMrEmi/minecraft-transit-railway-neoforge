@@ -1,0 +1,8 @@
+v1	named	intermediary
+FIELD	cn/zbx1425/mtrsteamloco/mixin/GameRendererMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_4015
+FIELD	cn/zbx1425/mtrsteamloco/mixin/KeyboardHandlerMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_1678
+FIELD	cn/zbx1425/mtrsteamloco/mixin/RailActionsMixin	Lnet/minecraft/world/level/block/state/BlockState;	state	state
+FIELD	cn/zbx1425/mtrsteamloco/mixin/RailActionsMixin	Lnet/minecraft/world/level/Level;	world	world
+FIELD	cn/zbx1425/mtrsteamloco/mixin/PackMixin	Lnet/minecraft/server/packs/repository/Pack$ResourcesSupplier;	resources	field_14273
+FIELD	cn/zbx1425/mtrsteamloco/mixin/PackMixin	Lnet/minecraft/server/packs/PackLocationInfo;	location	field_49037
+METHOD	cn/zbx1425/mtrsteamloco/mixin/RailActionsMixin	(Lnet/minecraft/core/BlockPos;Z)Lnet/minecraft/core/BlockPos;	getHalfPos	getHalfPos

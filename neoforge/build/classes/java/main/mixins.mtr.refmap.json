@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "mtr/mixin/PlayerRendererOffsetMixin": {
+      "getRenderOffset(Lnet/minecraft/client/player/AbstractClientPlayer;F)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;getRenderOffset(Lnet/minecraft/client/player/AbstractClientPlayer;F)Lnet/minecraft/world/phys/Vec3;"
+    },
+    "mtr/mixin/PlayerTeleportationStateAccessor": {
+      "isChangingDimension": "isChangingDimension:Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "mtr/mixin/PlayerRendererOffsetMixin": {
+        "getRenderOffset(Lnet/minecraft/client/player/AbstractClientPlayer;F)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;getRenderOffset(Lnet/minecraft/client/player/AbstractClientPlayer;F)Lnet/minecraft/world/phys/Vec3;"
+      },
+      "mtr/mixin/PlayerTeleportationStateAccessor": {
+        "isChangingDimension": "isChangingDimension:Z"
+      }
+    }
+  }
+}

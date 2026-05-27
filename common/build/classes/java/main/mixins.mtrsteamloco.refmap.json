@@ -1,0 +1,116 @@
+{
+  "mappings": {
+    "cn/zbx1425/mtrsteamloco/mixin/CustomResourcesMixin": {
+      "readResource": "Lmtr/client/CustomResources;readResource(Lnet/minecraft/class_3300;Ljava/lang/String;Ljava/util/function/Consumer;)V",
+      "reload(Lnet/minecraft/server/packs/resources/ResourceManager;)V": "Lmtr/client/CustomResources;reload(Lnet/minecraft/class_3300;)V"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/DynamicImageAccessor": {
+      "pixels": "field_5200:Lnet/minecraft/class_1011;"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/GameRendererMixin": {
+      "getProjectionMatrix": "Lnet/minecraft/class_757;method_22973(D)Lorg/joml/Matrix4f;"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/KeyboardHandlerMixin": {
+      "handleDebugKeys": "Lnet/minecraft/class_309;method_1468(I)Z"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/LevelRendererAccessor": {
+      "cullingFrustum": "field_27740:Lnet/minecraft/class_4604;"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/LevelRendererMixin": {
+      "setSectionDirty(III)V": "Lnet/minecraft/class_761;method_8571(III)V",
+      "setSectionDirty(IIIZ)V": "Lnet/minecraft/class_761;method_3295(IIIZ)V",
+      "setSectionDirtyWithNeighbors": "Lnet/minecraft/class_761;method_18145(III)V"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/ModelMapperAccessor": {
+      "modelPart": "modelPart:Lnet/minecraft/class_630;"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/ModelPartAccessor": {
+      "children": "field_3661:Ljava/util/Map;",
+      "cubes": "field_3663:Ljava/util/List;"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/ModelSimpleTrainBaseAccessor": {
+      "render": "render(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IFFFFIIZZ)V",
+      "renderDoorPositions": "renderDoorPositions(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFFZZ)V",
+      "renderEndPosition1": "renderEndPosition1(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFF)V",
+      "renderEndPosition2": "renderEndPosition2(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFF)V",
+      "renderHeadPosition1": "renderHeadPosition1(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFFZ)V",
+      "renderHeadPosition2": "renderHeadPosition2(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFFZ)V",
+      "renderWindowPositions": "renderWindowPositions(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFFZZ)V"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/NativeImageAccessor": {
+      "pixels": "field_4988:J"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/PackMixin": {
+      "getCompatibility": "Lnet/minecraft/class_3288;method_14460()Lnet/minecraft/class_3281;"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/RailMixin": {
+      "<init>(Lnet/minecraft/network/FriendlyByteBuf;)V": "Lmtr/data/Rail;<init>(Lnet/minecraft/class_2540;)V",
+      "writePacket": "Lmtr/data/Rail;writePacket(Lnet/minecraft/class_2540;)V"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/RenderTrainsMixin": {
+      "render": "Lmtr/render/RenderTrains;render(FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V",
+      "renderRailStandard(Lnet/minecraft/world/level/Level;Lmtr/data/Rail;FZFLjava/lang/String;FFFF)V": "Lmtr/render/RenderTrains;renderRailStandard(Lnet/minecraft/class_1937;Lmtr/data/Rail;FZFLjava/lang/String;FFFF)V"
+    },
+    "cn/zbx1425/mtrsteamloco/mixin/ResourcePackCreatorScreenMixin": {
+      "render(Lcom/mojang/blaze3d/vertex/PoseStack;)V": "Lmtr/screen/ResourcePackCreatorScreen;render(Lnet/minecraft/class_4587;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "cn/zbx1425/mtrsteamloco/mixin/CustomResourcesMixin": {
+        "readResource": "Lmtr/client/CustomResources;readResource(Lnet/minecraft/class_3300;Ljava/lang/String;Ljava/util/function/Consumer;)V",
+        "reload(Lnet/minecraft/server/packs/resources/ResourceManager;)V": "Lmtr/client/CustomResources;reload(Lnet/minecraft/class_3300;)V"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/DynamicImageAccessor": {
+        "pixels": "field_5200:Lnet/minecraft/class_1011;"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/GameRendererMixin": {
+        "getProjectionMatrix": "Lnet/minecraft/class_757;method_22973(D)Lorg/joml/Matrix4f;"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/KeyboardHandlerMixin": {
+        "handleDebugKeys": "Lnet/minecraft/class_309;method_1468(I)Z"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/LevelRendererAccessor": {
+        "cullingFrustum": "field_27740:Lnet/minecraft/class_4604;"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/LevelRendererMixin": {
+        "setSectionDirty(III)V": "Lnet/minecraft/class_761;method_8571(III)V",
+        "setSectionDirty(IIIZ)V": "Lnet/minecraft/class_761;method_3295(IIIZ)V",
+        "setSectionDirtyWithNeighbors": "Lnet/minecraft/class_761;method_18145(III)V"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/ModelMapperAccessor": {
+        "modelPart": "modelPart:Lnet/minecraft/class_630;"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/ModelPartAccessor": {
+        "children": "field_3661:Ljava/util/Map;",
+        "cubes": "field_3663:Ljava/util/List;"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/ModelSimpleTrainBaseAccessor": {
+        "render": "render(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IFFFFIIZZ)V",
+        "renderDoorPositions": "renderDoorPositions(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFFZZ)V",
+        "renderEndPosition1": "renderEndPosition1(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFF)V",
+        "renderEndPosition2": "renderEndPosition2(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFF)V",
+        "renderHeadPosition1": "renderHeadPosition1(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFFZ)V",
+        "renderHeadPosition2": "renderHeadPosition2(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFFZ)V",
+        "renderWindowPositions": "renderWindowPositions(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lmtr/model/ModelTrainBase$RenderStage;IIZFFFFZZ)V"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/NativeImageAccessor": {
+        "pixels": "field_4988:J"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/PackMixin": {
+        "getCompatibility": "Lnet/minecraft/class_3288;method_14460()Lnet/minecraft/class_3281;"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/RailMixin": {
+        "<init>(Lnet/minecraft/network/FriendlyByteBuf;)V": "Lmtr/data/Rail;<init>(Lnet/minecraft/class_2540;)V",
+        "writePacket": "Lmtr/data/Rail;writePacket(Lnet/minecraft/class_2540;)V"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/RenderTrainsMixin": {
+        "render": "Lmtr/render/RenderTrains;render(FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V",
+        "renderRailStandard(Lnet/minecraft/world/level/Level;Lmtr/data/Rail;FZFLjava/lang/String;FFFF)V": "Lmtr/render/RenderTrains;renderRailStandard(Lnet/minecraft/class_1937;Lmtr/data/Rail;FZFLjava/lang/String;FFFF)V"
+      },
+      "cn/zbx1425/mtrsteamloco/mixin/ResourcePackCreatorScreenMixin": {
+        "render(Lcom/mojang/blaze3d/vertex/PoseStack;)V": "Lmtr/screen/ResourcePackCreatorScreen;render(Lnet/minecraft/class_4587;)V"
+      }
+    }
+  }
+}

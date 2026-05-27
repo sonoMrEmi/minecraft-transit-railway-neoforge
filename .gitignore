@@ -1,0 +1,19 @@
+# Build and temporary files
+/build/
+/.gradle/
+/bin/
+/out/
+
+# IDE specific files
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+/run/
+/runs/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+

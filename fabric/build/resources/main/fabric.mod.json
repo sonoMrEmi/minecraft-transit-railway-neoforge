@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "mtr",
+	"version": "300.6.1+1.21.1",
+	"name": "NeoMTR",
+	"description": "A Minecraft mod that adds automated train systems into the game.",
+	"authors": [
+		"Jonathan Ho",
+		"Zbx1425"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/neomtr",
+		"sources": "https://github.com/zbx1425/Minecraft-Transit-Railway"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mtr.MTRFabric"
+		],
+		"client": [
+			"mtr.MTRFabricClient"
+		],
+		"modmenu": [
+			"mtr.ModMenuConfig"
+		]
+	},
+	"mixins": [
+		"mtr.mixins.json",
+		"mtrsteamloco.mixins.json"
+	],
+	"depends": {
+		"fabric": "*",
+		"minecraft": ">=1.21 <=1.21.1"
+	},
+	"accessWidener" : "mtrsteamloco.accesswidener"
+}
